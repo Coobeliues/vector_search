@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Пример вопроса 1: Сколько записей в таблице?",
+    "target_table": "example_table_1",
+    "sql_query": "SELECT COUNT(*) FROM example_table_1;",
+    "answer": "1000"
+  },
+  {
+    "question": "Пример вопроса 2: Какие категории есть?",
+    "target_table": "example_table_2",
+    "sql_query": "SELECT DISTINCT category FROM example_table_2;",
+    "answer": "category_a, category_b"
+  },
+  {
+    "question": "Пример вопроса 3: Средняя стоимость?",
+    "target_table": "example_table_3",
+    "sql_query": "SELECT AVG(price) FROM example_table_3;",
+    "answer": "123.45"
+  }
+]

@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+vector_search_env/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Секретные данные - НЕ КОММИТИТЬ!
+.env
+*.env
+.env.*
+
+# Результаты тестов и бенчмарки
+benchmarks.json
+*benchmark_results*.json
+*_results.json
+*.log
+
+# Backup файлы
+*.backup
+*.bak
+*.old
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+temp/
+tmp/
